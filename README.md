@@ -34,8 +34,9 @@ Stanford Online: https://online.stanford.edu/
 Andrew Ng: https://www.youtube.com/watch?v=779kvo2dxb4
 
 # Projects
-## [Land Lunar Lander on landing pad](https://github.com/rutvikjoshi63/Land-Lunar-Lander-on-landing-pad/tree/main/LunarLander/Files)
+## Land Lunar Lander on landing pad
 This project was a hands-on introduction to the world of reinforcement learning, where an agent learns through trial and error, maximizing its reward by making optimal decisions in a dynamic environment.
+### [Program Files](https://github.com/rutvikjoshi63/Land-Lunar-Lander-on-landing-pad/tree/main/LunarLander/Files)
 + **Procedure**
   * Modeling the moon environment: I built a physics simulation of the moon's gravity, thrusters, and lander dynamics. This provided the foundation for the agent's decision-making.
   * Crafting a reward function: I defined a reward system that prioritized landing within the designated area at low velocity, penalizing crashes and out-of-bounds landings. This guided the agent's learning towards the desired outcome.

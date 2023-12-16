@@ -9,6 +9,10 @@
         - [Code Base](#311-code-base)
         - [Procedure](#312-procedure)
         - [Learnings](#313-learnings)
+      + [Anomaly Detection](#31-land-lunar-lander-on-landing-pad)
+        - [Code Base](#311-code-base)
+        - [Procedure](#312-procedure)
+        - [Learnings](#313-learnings)
       + [Land Lunar Lander on landing pad](#31-land-lunar-lander-on-landing-pad)
         - [Code Base](#311-code-base)
         - [Procedure](#312-procedure)
@@ -42,6 +46,34 @@ Andrew Ng: https://www.youtube.com/watch?v=779kvo2dxb4
 # 3. Projects
 
 ## Unsupervised Learning, Recommenders, Reinforcement Learning
+## 3.1 K-means Image Compression
+This project was a hands-on introduction to compressing images using K-means clustering to reduce file size while maintaining visual quality.
+
+### 3.1.1 [Code Base](https://github.com/rutvikjoshi63/Land-Lunar-Lander-on-landing-pad/tree/main/K-means_ImageCompression)
+### **3.1.2 Key Points**
+  * Objective: Reduce image file size while preserving visual quality using K-means clustering.
+  * Approach: Group similar pixels into clusters, replacing each pixel's value with its cluster centroid.
+### **3.1.3 Decision Making**
+  * Number of clusters (k): Balancing compression ratio and visual quality.
+  * Lossy vs. Lossless compression: Trade-off between file size and perfect reconstruction.
+### **3.1.2 Procedure**
+  * Preprocessing: Read the image and convert it to a format suitable for K-means (e.g., pixel values).
+  * K-means clustering:
+      + Define the desired number of clusters (k).
+      + Randomly initialize k cluster centroids.
+      + Assign each pixel to the closest cluster centroid.
+      + Update the cluster centroids based on the assigned pixels.
+      + Repeat steps 3-5 until convergence (no further changes in cluster assignments).
+  * Quantization: Replace each pixel's original value with the value of its assigned cluster centroid.
+  * Encoding: Encode the quantized image data and cluster centroids for storage or transmission.
+### **3.1.3 Learnings**
+  * K-means offers a simple yet effective approach to image compression.
+  * Choosing k, handling lossy nature, and minimizing artifacts require careful consideration.
+  * Advanced algorithms and understanding human perception can unlock further optimization.
+### **3.1.3 Additional Tips**
+  * Advanced Clustering Algorithms: Exploring techniques like fuzzy c-means, which allow pixels to belong to multiple clusters with varying degrees of membership, can lead to more nuanced and potentially higher-quality compression.
+  * Human Perception and Quality Metrics: Understanding how the human eye perceives color variations and artifacts is crucial for optimizing K-means performance and developing effective quality assessment metrics.
+    
 ## 3.1 Anomaly Detection
 This project was a hands-on introduction to uncovering hidden patterns and identifying outliers. It challenged me to step beyond the realm of standard prediction and delve into the fascinating world of unsupervised learning.
 

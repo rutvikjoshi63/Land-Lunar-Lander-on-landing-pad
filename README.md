@@ -36,7 +36,7 @@
       - [3.4.4 Procedure](#344-procedure)
       - [3.4.5 Learnings](#345-learnings)
       - [3.4.6 Additional Tips](#346-additional-tips)
-    + [Land Lunar Lander on landing pad](#35-land-lunar-lander-on-landing-pad)
+    + [3.5 Land Lunar Lander on landing pad](#35-land-lunar-lander-on-landing-pad)
       - [3.5.1 Code Base ](#351-code-base)
       - [3.5.2 Procedure](#352-procedure)
       - [3.5.3 Learnings](#353-learnings)

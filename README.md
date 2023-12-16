@@ -1,7 +1,7 @@
 # Deep Dive into Machine Learning Specialization
 ## Table Of Contents
 
-  * [Introduction](#1)
+  * [Introduction](#1.)
   * [Skills Developed](#skills-developed)
   * [Projects](#getting-started)
     + [Land Lunar Lander on landing pad](#land-lunar-lander-on-landing-pad)

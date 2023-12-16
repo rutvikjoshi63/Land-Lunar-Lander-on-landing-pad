@@ -1,7 +1,7 @@
 # Deep Dive into Machine Learning Specialization
 ## Table Of Contents
 
-  * [Introduction](#introduction)
+  * [Introduction](#1)
   * [Skills Developed](#skills-developed)
   * [Projects](#getting-started)
     + [Land Lunar Lander on landing pad](#land-lunar-lander-on-landing-pad)
@@ -12,7 +12,7 @@
   * [Resources](#resources)
 
  
-# Introduction
+# 1. Introduction
 Having completed DeepLearning.AI's Machine Learning Specialization, I feel empowered with a robust foundation in this transformative field. Professor Ng's masterful guidance expertly navigated the complexities of supervised and unsupervised learning, neural networks, and reinforcement learning.
 
 The program surpassed mere technical training, delving into industry best practices and ethical considerations, equipping me with a Silicon Valley-caliber approach to AI development. This practical knowledge translates directly into tackling real-world challenges with confidence.

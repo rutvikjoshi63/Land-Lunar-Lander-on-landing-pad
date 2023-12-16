@@ -4,11 +4,11 @@
   * [Introduction](#1-introduction)
   * [Skills Developed](#2-skills-developed)
   * [Projects](#3-projects)
-    + [Unsupervised Learning, Recommenders, Reinforcement Learning](#unsupervisedlearningrecommendersreinforcementlearning)
-    + [Land Lunar Lander on landing pad](#31-land-lunar-lander-on-landing-pad)
-      - [Code Base](#311-code-base)
-      - [Procedure](#312-procedure)
-      - [Learnings](#313-learnings)
+    - [Unsupervised Learning, Recommenders, Reinforcement Learning](#unsupervised-learning-recommenders-reinforcement-learning)
+      + [Land Lunar Lander on landing pad](#31-land-lunar-lander-on-landing-pad)
+        - [Code Base](#311-code-base)
+        - [Procedure](#312-procedure)
+        - [Learnings](#313-learnings)
 
   * [Resources](#resources)
 

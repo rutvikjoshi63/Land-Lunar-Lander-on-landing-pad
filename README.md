@@ -5,8 +5,8 @@
   * [Skills Developed](#skills-developed)
   * [Projects](#getting-started)
     + [Land Lunar Lander on landing pad](#land-lunar-lander-on-landing-pad)
-      - [Procedure)](#procedure)
-      - [Learnings)](#learnings)
+      - [Procedure](#procedure)
+      - [Learnings](#learnings)
 
   * [Resources](#resources)
 

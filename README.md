@@ -1,21 +1,41 @@
-# Machine Learning Specialization
-### 1. Supervised Machine Learning: Regression and Classification
-### 2. [Advanced Learning Algorithms](https://github.com/rutvikjoshi63/Image_Classification)
+# Machine Learning Specialization : Unsupervised Learning, Recommenders, Reinforcement Learning
+#### 1. Supervised Machine Learning: Regression and Classification
+#### 2. [Advanced Learning Algorithms](https://github.com/rutvikjoshi63/Image_Classification)
 
-# 3. Unsupervised Learning, Recommenders, Reinforcement Learning
+## 3. Unsupervised Learning, Recommenders, Reinforcement Learning
 ## Table Of Contents
 
   * [Introduction](#1-introduction)
   * [Skills Developed](#2-skills-developed)
   * [Projects](#3-projects)
-    + [Anomaly Detection](#31-land-lunar-lander-on-landing-pad)
+    + [Anomaly Detection](#31-K-means-image-compression)
       - [Code Base](#311-code-base)
-      - [Procedure](#312-procedure)
-      - [Learnings](#313-learnings)
-    + [Anomaly Detection](#31-land-lunar-lander-on-landing-pad)
-      - [Code Base](#311-code-base)
-      - [Procedure](#312-procedure)
-      - [Learnings](#313-learnings)
+      - [Procedure](#312-key-points)
+      - [Learnings](#313-decision-making)
+      - [Procedure](#314-procedure)
+      - [Learnings](#315-learnings)
+      - [Learnings](#316-additional-tips)
+    + [Anomaly Detection](#32-anomaly-detection)
+      - [Code Base](#321-code-base)
+      - [Procedure](#312-key-points)
+      - [Learnings](#313-decision-making)
+      - [Procedure](#324-procedure)
+      - [Learnings](#325-learnings)
+      - [Learnings](#326-additional-tips)
+    + [Anomaly Detection](#33-collaborative-filtering)
+      - [Code Base](#331-code-base)
+      - [Procedure](#332-key-points)
+      - [Learnings](#333-decision-making)
+      - [Procedure](#334-procedure)
+      - [Learnings](#335-learnings)
+      - [Learnings](#336-additional-tips)
+    + [Anomaly Detection](#34-content-based-filtering)
+      - [Code Base](#341-code-base)
+      - [Procedure](#342-key-points)
+      - [Learnings](#343-decision-making)
+      - [Procedure](#344-procedure)
+      - [Learnings](#345-learnings)
+      - [Learnings](#346-additional-tips)
     + [Land Lunar Lander on landing pad](#31-land-lunar-lander-on-landing-pad)
       - [Code Base](#311-code-base)
       - [Procedure](#312-procedure)

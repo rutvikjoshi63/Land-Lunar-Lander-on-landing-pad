@@ -5,6 +5,8 @@
   * [Skills Developed](#skills-developed)
   * [Projects](#getting-started)
     + [Land Lunar Lander on landing pad](#land-lunar-lander-on-landing-pad)
+      - [Procedure)](#procedure)
+      - [Learnings)](#learnings)
 
   * [Resources](#resources)
 
@@ -34,12 +36,12 @@ Andrew Ng: https://www.youtube.com/watch?v=779kvo2dxb4
 # Projects
 ## Land-Lunar-Lander-on-landing-pad
 This project was a hands-on introduction to the world of reinforcement learning, where an agent learns through trial and error, maximizing its reward by making optimal decisions in a dynamic environment.
-+ Procedure
++ **Procedure**
   * Modeling the moon environment: I built a physics simulation of the moon's gravity, thrusters, and lander dynamics. This provided the foundation for the agent's decision-making.
   * Crafting a reward function: I defined a reward system that prioritized landing within the designated area at low velocity, penalizing crashes and out-of-bounds landings. This guided the agent's learning towards the desired outcome.
   * Implementing Q-Learning: I used the Q-Learning algorithm, which learns the value of taking different actions in different states. The agent constantly updated its "Q-table," estimating the future rewards associated with each action in a specific situation.
   * Training through exploration and exploitation: The agent initially explored the environment randomly, learning the consequences of each action. As it gained experience, it exploited its knowledge, favoring actions with higher predicted rewards, leading to smoother and safer landings. 
-+ Learnings
++ **Learnings**
   * Understanding the principles of reinforcement learning: I grasped the core concepts of reward maximization, Q-tables, and the trade-off between exploration and exploitation.
   * Applying theoretical knowledge to a real-world scenario: The project bridged the gap between theory and practice, demonstrating how reinforcement learning can be used to solve complex problems.
   * Developing problem-solving skills: I learned to break down a challenging task into smaller components, define objectives, and iterate on my approach to achieve optimal results.

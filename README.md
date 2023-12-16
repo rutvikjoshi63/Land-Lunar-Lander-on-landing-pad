@@ -4,8 +4,8 @@
   * [Introduction](#1-introduction)
   * [Skills Developed](#2-skills-developed)
   * [Projects](#3-projects)
-    + [Land Lunar Lander on landing pad](#3.1-land-lunar-lander-on-landing-pad)
-      - [Code Base](#3.1.1-codebase)
+    + [Land Lunar Lander on landing pad](#31-land-lunar-lander-on-landing-pad)
+      - [Code Base](#311-codebase)
       - [Procedure](#procedure)
       - [Learnings](#learnings)
 

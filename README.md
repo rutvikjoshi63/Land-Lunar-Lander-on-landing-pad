@@ -113,7 +113,54 @@ This project was a hands-on introduction to uncovering hidden patterns and ident
   * Cross-validation and test sets are crucial for evaluating and tuning the algorithm.
   * Tuning features and the epsilon threshold can significantly impact performance.
   * Anomaly detection is often used in security applications where attackers might use new tactics.
+## 3.1 Collaborative Filtering
+Imagine you walk into a bookstore, overwhelmed by the endless rows of books. Suddenly, a friendly bookseller appears, recommending titles based on your favorite authors and genres. That's the magic of collaborative filtering, a powerful technique used by recommendation systems to suggest you'll love!
 
+### 3.1.1 [Code Base](https://github.com/rutvikjoshi63/Land-Lunar-Lander-on-landing-pad/tree/main/CollabarativeFiletring)
+### **3.1.2 Key Points**
+  * Collaborative filtering is a technique used to recommend items to users based on the preferences of other similar users.
+  * It works by analyzing the ratings or interactions users have with different items and identifying patterns of similarity between users.
+  * This information is then used to predict how likely a specific user is to like an item they haven't yet rated or interacted with.
+  * Collaborative filtering can be used for various applications, including recommending movies, products, music, news articles, and even friends.
+### **3.1.3 Decision Making**
+  * The decision of whether or not to recommend an item to a user is based on the predicted rating or probability of the user liking the item.
+  * This prediction is made by comparing the user's profile to the profiles of similar users and seeing what items those users have liked.
+### **3.1.2 Procedure**
+There are two main approaches to collaborative filtering:
+  * Matrix factorization: This approach decomposes the user-item rating matrix into two lower-dimensional matrices, representing latent factors that capture the underlying patterns of user preferences and item characteristics. These factors are then used to predict missing ratings or recommend new items.
+  * Neighborhood-based methods: These methods identify a set of similar users (the neighborhood) for a target user and then recommend items that the users in the neighborhood have liked.
+### **3.1.3 Learnings**
+  * Collaborative filtering can be a powerful tool for recommending items to users, but it is important to consider its limitations.
+  * For example, it can be susceptible to cold start problems (when there is not enough data about a user or item) and can also be biased towards items that are already popular.
+  * Despite these limitations, collaborative filtering remains a valuable technique for many recommender systems.
+### **3.1.3 Additional Tips**
+  * The video lectures you provided discuss two specific algorithms for collaborative filtering: matrix factorization with features and matrix factorization without features.
+  * These are just two examples, and there are many other algorithms that can be used for collaborative filtering.
+  * The choice of algorithm will depend on the specific data and application.
+## 3.1 Content-based filtering
+Imagine you walk into a bookstore, overwhelmed by the endless rows of books. Suddenly, a friendly bookseller appears, recommending titles based on your favorite authors and genres. That's the magic of collaborative filtering, a powerful technique used by recommendation systems to suggest you'll love!
+### 3.1.1 [Code Base](https://github.com/rutvikjoshi63/Land-Lunar-Lander-on-landing-pad/tree/main/content_base_Filtering/)
+### **3.1.2 Key Points**
+  * Collaborative filtering is a technique used to recommend items to users based on the preferences of other similar users.
+  * It works by analyzing the ratings or interactions users have with different items and identifying patterns of similarity between users.
+  * This information is then used to predict how likely a specific user is to like an item they haven't yet rated or interacted with.
+  * Collaborative filtering can be used for various applications, including recommending movies, products, music, news articles, and even friends.
+### **3.1.3 Decision Making**
+  * The decision of whether or not to recommend an item to a user is based on the predicted rating or probability of the user liking the item.
+  * This prediction is made by comparing the user's profile to the profiles of similar users and seeing what items those users have liked.
+### **3.1.2 Procedure**
+There are two main approaches to collaborative filtering:
+  * Matrix factorization: This approach decomposes the user-item rating matrix into two lower-dimensional matrices, representing latent factors that capture the underlying patterns of user preferences and item characteristics. These factors are then used to predict missing ratings or recommend new items.
+  * Neighborhood-based methods: These methods identify a set of similar users (the neighborhood) for a target user and then recommend items that the users in the neighborhood have liked.
+### **3.1.3 Learnings**
+  * Collaborative filtering can be a powerful tool for recommending items to users, but it is important to consider its limitations.
+  * For example, it can be susceptible to cold start problems (when there is not enough data about a user or item) and can also be biased towards items that are already popular.
+  * Despite these limitations, collaborative filtering remains a valuable technique for many recommender systems.
+### **3.1.3 Additional Tips**
+  * The video lectures you provided discuss two specific algorithms for collaborative filtering: matrix factorization with features and matrix factorization without features.
+  * These are just two examples, and there are many other algorithms that can be used for collaborative filtering.
+  * The choice of algorithm will depend on the specific data and application.
+  * 
 ## 3.1 Land Lunar Lander on landing pad
 This project was a hands-on introduction to the world of reinforcement learning, where an agent learns through trial and error, maximizing its reward by making optimal decisions in a dynamic environment.
 ### 3.1.1 [Code Base](https://github.com/rutvikjoshi63/Land-Lunar-Lander-on-landing-pad/tree/main/LunarLander/Files)

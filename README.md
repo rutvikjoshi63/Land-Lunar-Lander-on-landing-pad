@@ -1,22 +1,25 @@
-# Deep Dive into Machine Learning Specialization
+# Machine Learning Specialization
+### 1. Supervised Machine Learning: Regression and Classification
+### 2. [Advanced Learning Algorithms](https://github.com/rutvikjoshi63/Image_Classification)
+
+# 3. Unsupervised Learning, Recommenders, Reinforcement Learning
 ## Table Of Contents
 
   * [Introduction](#1-introduction)
   * [Skills Developed](#2-skills-developed)
   * [Projects](#3-projects)
-    - [Unsupervised Learning, Recommenders, Reinforcement Learning](#unsupervised-learning-recommenders-reinforcement-learning)
-      + [Anomaly Detection](#31-land-lunar-lander-on-landing-pad)
-        - [Code Base](#311-code-base)
-        - [Procedure](#312-procedure)
-        - [Learnings](#313-learnings)
-      + [Anomaly Detection](#31-land-lunar-lander-on-landing-pad)
-        - [Code Base](#311-code-base)
-        - [Procedure](#312-procedure)
-        - [Learnings](#313-learnings)
-      + [Land Lunar Lander on landing pad](#31-land-lunar-lander-on-landing-pad)
-        - [Code Base](#311-code-base)
-        - [Procedure](#312-procedure)
-        - [Learnings](#313-learnings)
+    + [Anomaly Detection](#31-land-lunar-lander-on-landing-pad)
+      - [Code Base](#311-code-base)
+      - [Procedure](#312-procedure)
+      - [Learnings](#313-learnings)
+    + [Anomaly Detection](#31-land-lunar-lander-on-landing-pad)
+      - [Code Base](#311-code-base)
+      - [Procedure](#312-procedure)
+      - [Learnings](#313-learnings)
+    + [Land Lunar Lander on landing pad](#31-land-lunar-lander-on-landing-pad)
+      - [Code Base](#311-code-base)
+      - [Procedure](#312-procedure)
+      - [Learnings](#313-learnings)
 
   * [Resources](#resources)
 
@@ -44,8 +47,6 @@ Stanford Online: https://online.stanford.edu/
 Andrew Ng: https://www.youtube.com/watch?v=779kvo2dxb4
 
 # 3. Projects
-
-## Unsupervised Learning, Recommenders, Reinforcement Learning
 ## 3.1 K-means Image Compression
 This project was a hands-on introduction to compressing images using K-means clustering to reduce file size while maintaining visual quality.
 
@@ -141,26 +142,30 @@ There are two main approaches to collaborative filtering:
 Imagine you walk into a bookstore, overwhelmed by the endless rows of books. Suddenly, a friendly bookseller appears, recommending titles based on your favorite authors and genres. That's the magic of collaborative filtering, a powerful technique used by recommendation systems to suggest you'll love!
 ### 3.1.1 [Code Base](https://github.com/rutvikjoshi63/Land-Lunar-Lander-on-landing-pad/tree/main/content_base_Filtering/)
 ### **3.1.2 Key Points**
-  * Collaborative filtering is a technique used to recommend items to users based on the preferences of other similar users.
-  * It works by analyzing the ratings or interactions users have with different items and identifying patterns of similarity between users.
-  * This information is then used to predict how likely a specific user is to like an item they haven't yet rated or interacted with.
-  * Collaborative filtering can be used for various applications, including recommending movies, products, music, news articles, and even friends.
+  * Content-based filtering recommends items based on the features of users and items, unlike collaborative filtering which relies on user ratings.
+  * User features can include age, gender, country, past movie ratings, and genre preferences.
+  * Item features can include year of release, genre, stars, and critic reviews.
+  * The goal is to learn vectors (v_u for users and v_m for movies) that capture user preferences and item characteristics.
+  * The recommendation score is calculated as the dot product of v_u and v_m.
 ### **3.1.3 Decision Making**
-  * The decision of whether or not to recommend an item to a user is based on the predicted rating or probability of the user liking the item.
-  * This prediction is made by comparing the user's profile to the profiles of similar users and seeing what items those users have liked.
+  * Choose features that effectively represent users and items.
+  * Design a neural network architecture to learn v_u and v_m vectors.
+  * Use a cost function based on squared error between predictions and actual ratings to train the model.
 ### **3.1.2 Procedure**
-There are two main approaches to collaborative filtering:
-  * Matrix factorization: This approach decomposes the user-item rating matrix into two lower-dimensional matrices, representing latent factors that capture the underlying patterns of user preferences and item characteristics. These factors are then used to predict missing ratings or recommend new items.
-  * Neighborhood-based methods: These methods identify a set of similar users (the neighborhood) for a target user and then recommend items that the users in the neighborhood have liked.
+  * Preprocess data to extract features for users and items.
+  * Train the neural network model on user-item pairs with ratings.
+  * For a new user, compute the v_u vector based on their features.
+  * For a new item, compute the v_m vector based on its features.
+  * Recommend items with the highest dot product scores between v_u and v_m for the new user.
 ### **3.1.3 Learnings**
-  * Collaborative filtering can be a powerful tool for recommending items to users, but it is important to consider its limitations.
-  * For example, it can be susceptible to cold start problems (when there is not enough data about a user or item) and can also be biased towards items that are already popular.
-  * Despite these limitations, collaborative filtering remains a valuable technique for many recommender systems.
+  * Deep learning is a powerful approach for content-based filtering.
+  * Pre-computing item similarities can improve efficiency.
+  * Ethical considerations are crucial when designing recommender systems.
 ### **3.1.3 Additional Tips**
-  * The video lectures you provided discuss two specific algorithms for collaborative filtering: matrix factorization with features and matrix factorization without features.
-  * These are just two examples, and there are many other algorithms that can be used for collaborative filtering.
-  * The choice of algorithm will depend on the specific data and application.
-  * 
+  * Content-based filtering can be combined with collaborative filtering for improved performance.
+  * Large-scale recommender systems often use a two-step approach: retrieval and ranking.
+  * Retrieval finds a shortlist of plausible items based on precomputed similarities.
+  * Ranking uses a learned model to refine the shortlist and recommend the top items.
 ## 3.1 Land Lunar Lander on landing pad
 This project was a hands-on introduction to the world of reinforcement learning, where an agent learns through trial and error, maximizing its reward by making optimal decisions in a dynamic environment.
 ### 3.1.1 [Code Base](https://github.com/rutvikjoshi63/Land-Lunar-Lander-on-landing-pad/tree/main/LunarLander/Files)

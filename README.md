@@ -2,10 +2,10 @@
 ## Table Of Contents
 
   * [Introduction](#1-introduction)
-  * [Skills Developed](#skills-developed)
-  * [Projects](#getting-started)
-    + [Land Lunar Lander on landing pad](#land-lunar-lander-on-landing-pad)
-      - [Code Base](#codebase)
+  * [Skills Developed](#2-skills-developed)
+  * [Projects](#3-getting-started)
+    + [Land Lunar Lander on landing pad](#3.1-land-lunar-lander-on-landing-pad)
+      - [Code Base](#3.1.1-codebase)
       - [Procedure](#procedure)
       - [Learnings](#learnings)
 
@@ -18,7 +18,7 @@ Having completed DeepLearning.AI's Machine Learning Specialization, I feel empow
 The program surpassed mere technical training, delving into industry best practices and ethical considerations, equipping me with a Silicon Valley-caliber approach to AI development. This practical knowledge translates directly into tackling real-world challenges with confidence.
 
 The Specialization provided me with:
-# Skills Developed
+# 2. Skills Developed
 * Solid understanding of foundational machine learning concepts: From linear regression to deep reinforcement learning, I gained a comprehensive grasp of key algorithms and their applications.
 * Hands-on Python skills: Building models using NumPy and scikit-learn solidified my ability to implement these concepts in real-world scenarios.
 * Critical thinking and problem-solving: I learned to approach challenges with a data-driven mindset, employing best practices for model evaluation and performance optimization.
@@ -34,10 +34,10 @@ DeepLearning.AI: https://www.deeplearning.ai/
 Stanford Online: https://online.stanford.edu/
 Andrew Ng: https://www.youtube.com/watch?v=779kvo2dxb4
 
-# Projects
-## Land Lunar Lander on landing pad
+# 3. Projects
+## 3.1 Land Lunar Lander on landing pad
 This project was a hands-on introduction to the world of reinforcement learning, where an agent learns through trial and error, maximizing its reward by making optimal decisions in a dynamic environment.
-### [Code Base](https://github.com/rutvikjoshi63/Land-Lunar-Lander-on-landing-pad/tree/main/LunarLander/Files)
+### 3.1.1 [Code Base](https://github.com/rutvikjoshi63/Land-Lunar-Lander-on-landing-pad/tree/main/LunarLander/Files)
 
 + **Procedure**
   * Modeling the moon environment: I built a physics simulation of the moon's gravity, thrusters, and lander dynamics. This provided the foundation for the agent's decision-making.

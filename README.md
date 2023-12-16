@@ -4,6 +4,7 @@
   * [Introduction](#1-introduction)
   * [Skills Developed](#2-skills-developed)
   * [Projects](#3-projects)
+    + [Unsupervised Learning, Recommenders, Reinforcement Learning](#unsupervisedlearningrecommendersreinforcementlearning)
     + [Land Lunar Lander on landing pad](#31-land-lunar-lander-on-landing-pad)
       - [Code Base](#311-code-base)
       - [Procedure](#312-procedure)
@@ -35,6 +36,8 @@ Stanford Online: https://online.stanford.edu/
 Andrew Ng: https://www.youtube.com/watch?v=779kvo2dxb4
 
 # 3. Projects
+
+## Unsupervised Learning, Recommenders, Reinforcement Learning
 ## 3.1 Land Lunar Lander on landing pad
 This project was a hands-on introduction to the world of reinforcement learning, where an agent learns through trial and error, maximizing its reward by making optimal decisions in a dynamic environment.
 ### 3.1.1 [Code Base](https://github.com/rutvikjoshi63/Land-Lunar-Lander-on-landing-pad/tree/main/LunarLander/Files)

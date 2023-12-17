@@ -188,7 +188,7 @@ Imagine you walk into a bookstore, overwhelmed by the endless rows of books. Sud
   * Ranking uses a learned model to refine the shortlist and recommend the top items.
 ## 3.5 Land Lunar Lander on landing pad
 This project was a hands-on introduction to the world of reinforcement learning, where an agent learns through trial and error, maximizing its reward by making optimal decisions in a dynamic environment.
-### 3.5.1 [Code Base](https://github.com/rutvikjoshi63/Land-Lunar-Lander-on-landing-pad/tree/main/LunarLander/Files)
+### 3.5.1 [Code Base](https://github.com/rutvikjoshi63/Land-Lunar-Lander-on-landing-pad/tree/main/LunarLander)
 
 ### **3.5.2 Procedure**
   * Modeling the moon environment: I built a physics simulation of the moon's gravity, thrusters, and lander dynamics. This provided the foundation for the agent's decision-making.
